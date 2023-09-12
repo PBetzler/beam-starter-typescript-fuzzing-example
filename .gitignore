@@ -6,3 +6,15 @@ dist
 
 # Output of 'npm pack'
 *.tgz
+
+.cifuzz-*/
+*.log
+
+*.fuzz/
+
+coverage
+*.lcov
+
+package-lock.*
+
+jazzer.js-*
