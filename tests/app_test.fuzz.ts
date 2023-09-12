@@ -2,6 +2,7 @@ import * as beam from "apache-beam";
 import * as runner from "apache-beam/runners/runner";
 import * as testing from "apache-beam/testing/assert";
 import { FuzzedDataProvider } from "@jazzer.js/core";
+import "@jazzer.js/jest-runner";
 
 import * as app from "../src/app";
 
